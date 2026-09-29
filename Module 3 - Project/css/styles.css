@@ -1,0 +1,98 @@
+/* ==============================
+   GENERAL PAGE
+   ============================== */
+
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+
+/* ==============================
+   NAVBAR
+   ============================== */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* Mobile hamburger button */
+
+.navbar-toggle {
+    margin-right: 15px;
+}
+
+
+/* ==============================
+   PAGE HEADING
+   ============================== */
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+/* ==============================
+   MENU SECTIONS
+   ============================== */
+
+.menu-section {
+    background-color: #e6e6e6;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+
+    min-height: 650px;
+
+    border: 1px solid #cccccc;
+}
+
+.menu-section h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    font-weight: bold;
+}
+
+.menu-section p {
+    line-height: 1.7;
+
+    margin-bottom: 20px;
+}
+
+
+/* ==============================
+   BACK TO TOP
+   ============================== */
+
+.back-to-top {
+    display: block;
+
+    margin-top: 30px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+/* ==============================
+   MOBILE
+   ============================== */
+
+@media (max-width: 767px) {
+
+    .menu-section {
+        min-height: 600px;
+    }
+
+}
