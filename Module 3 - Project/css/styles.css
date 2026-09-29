@@ -1,0 +1,61 @@
+/* ==============================
+   GENERAL PAGE STYLING
+   ============================== */
+
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+
+/* ==============================
+   NAVBAR
+   ============================== */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* Mobile menu button */
+
+.navbar-toggle {
+    margin-right: 15px;
+}
+
+
+/* ==============================
+   PAGE HEADING
+   ============================== */
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+/* ==============================
+   MENU SECTION
+   ============================== */
+
+.menu-section {
+    background-color: #e6e6e6;
+    padding: 20px;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.menu-section h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.menu-section p {
+    line-height: 1.7;
+}
